@@ -1,0 +1,12 @@
+# Requirements for the Interactive Web Interface
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Core system dependencies (if not already installed)
+scikit-learn>=1.2.0
+lightgbm>=3.3.0
+xgboost>=1.7.0
+shap>=0.41.0
+lime>=0.2.0
+
