@@ -1,0 +1,38 @@
+=== EDA Summary ===
+Shape: 10000 rows, 18 columns
+Missing counts:
+patient_id              0
+gender                  0
+age                     0
+family_history          0
+glucose_level           0
+physical_activity       0
+food_intake             0
+previous_medications    0
+BMI                     0
+HbA1c                   0
+weight                  0
+insulin_sensitivity     0
+sleep_hours             0
+creatinine              0
+Insulin                 0
+iob                     0
+anticipated_carbs       0
+glucose_trend           0
+Target:
+Insulin
+steady    5326
+up        3363
+no         701
+down       610
+
+Numeric summary:
+                age  glucose_level  physical_activity           BMI         HbA1c        weight  insulin_sensitivity   sleep_hours    creatinine
+count  10000.000000   10000.000000       10000.000000  10000.000000  10000.000000  10000.000000         10000.000000  10000.000000  10000.000000
+mean      48.332600     136.130545           4.957276     29.100394      8.038930     79.684362             1.002086      6.990714      1.002028
+std       17.908044      37.477472           2.862755      6.329743      2.324137     23.198076             0.287446      1.724606      0.288162
+min       18.000000      70.010000           0.000000     18.000000      4.000000     40.010000             0.500000      4.000000      0.500000
+25%       33.000000     104.047500           2.470000     23.650000      6.040000     59.702500             0.750000      5.480000      0.750000
+50%       48.000000     136.835000           4.960000     29.115000      8.010000     79.335000             1.000000      7.010000      1.010000
+75%       64.000000     168.020000           7.380000     34.620000     10.100000     99.740000             1.250000      8.470000      1.250000
+max       79.000000     199.990000          10.000000     40.000000     12.000000    119.990000             1.500000     10.000000      1.500000
