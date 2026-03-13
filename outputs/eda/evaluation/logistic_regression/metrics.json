@@ -1,0 +1,160 @@
+{
+  "test": {
+    "model_name": "logistic_regression",
+    "accuracy": 0.33,
+    "precision_weighted": 0.6402843324837212,
+    "recall_weighted": 0.33,
+    "f1_weighted": 0.35575805435941443,
+    "precision_macro": 0.4211940141939891,
+    "recall_macro": 0.5211938865868457,
+    "f1_macro": 0.320544366009527,
+    "roc_auc_ovr_weighted": 0.6837207132650809,
+    "confusion_matrix": [
+      [
+        48,
+        10,
+        0,
+        7
+      ],
+      [
+        12,
+        59,
+        2,
+        0
+      ],
+      [
+        153,
+        179,
+        121,
+        82
+      ],
+      [
+        97,
+        105,
+        23,
+        102
+      ]
+    ],
+    "labels": [
+      "down",
+      "no",
+      "steady",
+      "up"
+    ],
+    "clinical_cost": 1.2545
+  },
+  "train": {
+    "model_name": "logistic_regression",
+    "accuracy": 0.327,
+    "precision_weighted": 0.6338083738909858,
+    "recall_weighted": 0.327,
+    "f1_weighted": 0.3623749797166429,
+    "precision_macro": 0.41427383226245884,
+    "recall_macro": 0.5010476743397183,
+    "f1_macro": 0.31355840232518745,
+    "roc_auc_ovr_weighted": 0.6852608464489135,
+    "confusion_matrix": [
+      [
+        383,
+        80,
+        7,
+        22
+      ],
+      [
+        144,
+        375,
+        11,
+        28
+      ],
+      [
+        1336,
+        1334,
+        994,
+        583
+      ],
+      [
+        842,
+        752,
+        245,
+        864
+      ]
+    ],
+    "labels": [
+      "down",
+      "no",
+      "steady",
+      "up"
+    ],
+    "clinical_cost": 1.3003125
+  },
+  "val": {
+    "model_name": "logistic_regression",
+    "accuracy": 0.324,
+    "precision_weighted": 0.6403189578534922,
+    "recall_weighted": 0.324,
+    "f1_weighted": 0.3658958642532968,
+    "precision_macro": 0.41030443975680597,
+    "recall_macro": 0.4909872250361984,
+    "f1_macro": 0.3077673410291618,
+    "roc_auc_ovr_weighted": 0.6849474354437934,
+    "confusion_matrix": [
+      [
+        39,
+        8,
+        1,
+        5
+      ],
+      [
+        19,
+        46,
+        3,
+        2
+      ],
+      [
+        187,
+        161,
+        126,
+        70
+      ],
+      [
+        97,
+        92,
+        31,
+        113
+      ]
+    ],
+    "labels": [
+      "down",
+      "no",
+      "steady",
+      "up"
+    ],
+    "clinical_cost": 1.299
+  },
+  "per_class_metrics": [
+    {
+      "class": "down",
+      "precision": 0.15483870967741936,
+      "recall": 0.7384615384615385,
+      "f1": 0.256
+    },
+    {
+      "class": "no",
+      "precision": 0.1671388101983003,
+      "recall": 0.8082191780821918,
+      "f1": 0.27699530516431925
+    },
+    {
+      "class": "steady",
+      "precision": 0.8287671232876712,
+      "recall": 0.2261682242990654,
+      "f1": 0.355359765051395
+    },
+    {
+      "class": "up",
+      "precision": 0.5340314136125655,
+      "recall": 0.3119266055045872,
+      "f1": 0.3938223938223938
+    }
+  ]
+}
