@@ -1,0 +1,2 @@
+model,accuracy,f1_weighted,f1_macro,roc_auc_weighted,artifacts_dir
+gradient_boosting,0.348,0.374451679084223,0.34007605440650013,0.7262604262247483,outputs\evaluation\gradient_boosting
